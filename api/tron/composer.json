@@ -1,0 +1,10 @@
+{
+    "require": {
+        "iexbase/tron-api": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "IEXBase\\TronAPI\\": "src"
+        }
+    }
+}

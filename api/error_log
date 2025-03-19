@@ -1,0 +1,34 @@
+[27-May-2024 10:20:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "array" does not exist in /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php:752
+Stack trace:
+#0 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(752): ReflectionClass->__construct()
+#1 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(631): Illuminate\Container\Container->build()
+#2 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(586): Illuminate\Container\Container->resolve()
+#3 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/laravel/lumen-framework/src/Application.php(230): Illuminate\Container\Container->make()
+#4 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(887): Laravel\Lumen\Application->make()
+#5 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(815): Illuminate\Container\Container->resolveClass()
+#6 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#7 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/laravel/lumen-framework/src/Application.php(230): Illuminate\Container\Container->make()
+#10 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(127): Laravel\Lumen\Application->make()
+#11 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(50): Laravel\Lumen\Application->handleUncaughtException()
+#12 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#13 {main}
+  thrown in /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php on line 752
+[27-May-2024 10:21:17 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "array" does not exist in /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php:752
+Stack trace:
+#0 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(752): ReflectionClass->__construct()
+#1 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(631): Illuminate\Container\Container->build()
+#2 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(586): Illuminate\Container\Container->resolve()
+#3 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/laravel/lumen-framework/src/Application.php(230): Illuminate\Container\Container->make()
+#4 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(887): Laravel\Lumen\Application->make()
+#5 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(815): Illuminate\Container\Container->resolveClass()
+#6 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#7 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/laravel/lumen-framework/src/Application.php(230): Illuminate\Container\Container->make()
+#10 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(127): Laravel\Lumen\Application->make()
+#11 /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(50): Laravel\Lumen\Application->handleUncaughtException()
+#12 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#13 {main}
+  thrown in /home/maktechg/public_html/game.bachatkaroo.com/api/vendor/illuminate/container/Container.php on line 752
